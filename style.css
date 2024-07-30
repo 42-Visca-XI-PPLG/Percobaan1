@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.Navbar{
+    background-color:rgb(38, 56, 34);
+    padding:10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-right: auto;
+    height: 50px;
+    width: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+body,html{
+    height:100%
+}
+
+.bg{
+    background-image: url(anime-studio-ghibli-karigurashi-no-arrietty-house-wallpaper-preview.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
